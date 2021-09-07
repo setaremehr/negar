@@ -49,7 +49,7 @@ export default function Footer(props) {
           </List>
         </div>
         <div className={classes.right}>
-        ©2021 Negar Bakhshi, Professional Makeup Artist. All Rights Reserved. || 4084555502
+        ©2021 Nina Bakhshi, Professional Makeup Artist. All Rights Reserved. || 4084555502
         </div>
       </div>
     </footer>

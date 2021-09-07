@@ -9,17 +9,11 @@ import Box from "@material-ui/core/Box";
 // import Paper from "@material-ui/core/Paper";
 import negar from "../../../assets/img/nn.png";
 import Grid from "@material-ui/core/Grid";
-
-// const Item = styled(({ theme }) => ({
-//   ...theme.typography.body2,
-//   padding: theme.spacing(1),
-//   textAlign: "center",
-//   color: theme.palette.text.secondary,
-// }));
+import { purple, red } from '@material-ui/core/colors';
 export default function SectionAbout() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const imageUrl = windowWidth >= 650 ? desktopImage : mobileImage;
-  //   const colorChange = windowWidth >= 650 ? "#fce4ec" : "#212121";
+  const colorChange = windowWidth >= 650 ? red : purple;
   useEffect(() => {
     const handleWindowResize = () => {
       setWindowWidth(window.innerWidth);
@@ -37,7 +31,20 @@ export default function SectionAbout() {
     height: 160,
     border: `5px solid ${theme.palette.background.paper}`,
   }));
-
+  const insideStyles = {
+    background: "white",
+    padding: 20,
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%,-50%)",
+    opacity: "50%",
+    fontFamily: "Allison, cursive",
+    fontSize: "35px",
+    color: "black",
+    //   borderStyle: "dotted",
+    borderRadius: "12px",
+  };
   return (
     <>
       <div className="App" style={{ backgroundImage: `url(${imageUrl})` }}>
@@ -62,19 +69,21 @@ export default function SectionAbout() {
             <Grid item xs={8} justify="center">
               {/* <Item>xs=8</Item> */}
               <h1
-                className="pp"
+                // className="pp"
                 style={{
                   marginTop: "90px",
-                  //   color: { colorChange },
+                  color: "#2e7d32",
                 }}
               >
-                Welcome to my website!
+                <br/>
+                {/* Welcome to my website! */}
               </h1>
-              <p className="pp" style={{ fontSize: "24px" }}>
-                Hello! Thank you for stopping by! I’m Negar Bakhshi(Nina),
-                Professional Makeup Artist, located on San Jose Ca.
-                <br />
-                <br />
+              <p className="pp" style={{ fontSize: "24px",paddingTop: "40px" }}>
+                Hello! Thank you for stopping by!<br/> 
+                I’m Nina Bakhshi,
+                Professional freelance Makeup Artist,<br/> located on San Jose Ca.
+                {/* <br />
+                <br /> */}
               </p>
             </Grid>
           </Grid>

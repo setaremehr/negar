@@ -12,19 +12,22 @@
   /* justify-content: flex-start; */
   align-items: center;
   padding: 40px;
- 
-  
 }
 
 .pp {
-    padding-right: 45px;
-    text-align: center;
-    font-family: 'Cinzel', serif;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    /* margin-left: 60px; */
-    /* font-family: 'Besley', serif; */
+  padding-right: 45px;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: black;
+  padding: 40px;
+  /* position: absolute; */
+  opacity: 50%;
+  color: white;
+  border-radius: 22px;
 }
 
 @media (min-width: 650px) {

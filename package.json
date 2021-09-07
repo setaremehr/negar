@@ -10,6 +10,8 @@
     "@material-ui/icons": "4.11.2",
     "bootstrap": "^5.0.2",
     "classnames": "2.3.1",
+    "material-ui-rating": "^4.2.0",
+    "material-ui-toggle-icon": "^1.1.2",
     "moment": "2.29.1",
     "node-sass": "6.0.0",
     "nouislider": "15.1.0",
@@ -21,11 +23,13 @@
     "react-images": "^1.2.0-beta.7",
     "react-parallax": "^3.3.0",
     "react-photo-gallery": "^8.0.0",
+    "react-rating": "^2.0.5",
     "react-responsive-carousel": "^3.2.20",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
     "react-slick": "0.28.1",
     "react-swipeable-views": "^0.14.0",
+    "skeleton": "^0.1.2",
     "stack": "^0.1.0"
   },
   "devDependencies": {

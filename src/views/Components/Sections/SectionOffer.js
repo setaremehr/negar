@@ -23,25 +23,20 @@ export default function SectionOffer() {
             </h2>
             <span>
               <h4 style={{ fontFamily: "Lobster Two" }}>Works on location</h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>HD makeup</h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>General Makeup</h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>Airbrush Makeup</h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>False Lashes</h4>
+              <h4 style={{ fontFamily: "Lobster Two" }}>
+                Special occasion makeup
+              </h4>
+              <h4 style={{ fontFamily: "Lobster Two" }}>
+                Makeup training and product knowledge for self application or
+                perfesional level
+              </h4>
+              <h4 style={{ fontFamily: "Lobster Two" }}>
+                Bridal make up ( include trials)
+              </h4>
+              <h4 style={{ fontFamily: "Lobster Two" }}>Halloween looks</h4>
               <h4 style={{ fontFamily: "Lobster Two" }}>Wedding Makeup</h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>
-                Bridal General Makeup
-              </h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>
-                Bridal Airbrush Makeup
-              </h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>
-                Junior Bridesmaid General Makeup
-              </h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>
-                Day of Wedding - Touch Up Service
-              </h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>Special Event</h4>
-              <h4 style={{ fontFamily: "Lobster Two" }}>Corrective Makeup</h4>
+              <h4 style={{ fontFamily: "Lobster Two" }}>On stage make up</h4>
+              <h4 style={{ fontFamily: "Lobster Two" }}>Editorial make up</h4>
             </span>
           </GridItem>
         </GridContainer>

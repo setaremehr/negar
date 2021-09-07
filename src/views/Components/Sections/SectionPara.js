@@ -45,7 +45,7 @@ export default function SectionPara() {
           <br />
           <br />
           <br />
-          NEGAR BAKHSHI
+          NINA BAKHSHI
           <br />
           <br />
           <br />

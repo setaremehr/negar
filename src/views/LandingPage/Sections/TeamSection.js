@@ -18,10 +18,13 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/team
 
 import team1 from "../../../assets/img/team1.jpg";
 
+// import Rating from "@material-ui/core/Rating";
+
 const useStyles = makeStyles(styles);
 
 export default function TeamSection() {
   const classes = useStyles();
+  const [selected, setSelected] = React.useState(false);
   const imageClasses = classNames(
     classes.imgRaised,
     classes.imgRoundedCircle,
@@ -45,15 +48,15 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Negar Bakhshi
+                Nina Bakhshi
                 <br />
                 <small className={classes.smallTitle}>Makeup Artist</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  I am a make-up artist based in San Francisco, US. I am really
+                  I am a make-up artist based in San Jose (Bay Area), US. I am really
                   proud of what I have achieved within this short time as a make
-                  up artist. My goal as a makeup artist is for every single one
+                  up artist. My goal is for every single one
                   of my clients to feel confident and comfortable.I have been a
                   free-lance makeup artist since 2017, though my love of makeup
                   goes back many years
@@ -65,14 +68,26 @@ export default function TeamSection() {
                   color="transparent"
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-twitter"} />
+                  <a
+                href="https://instagram.com/Nina_bakhshi_"
+                className={classes.block}
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-linkedin"} />
+                  <a
+                href="mailto:Ngr.Bakhshi.k@gmail.com"
+                className={classes.block}
+                target="_blank"
+              >
+                <i class="fas fa-at"></i>
+              </a>
                 </Button>
               </CardFooter>
             </Card>

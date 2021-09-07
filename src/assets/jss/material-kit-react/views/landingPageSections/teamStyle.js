@@ -23,7 +23,9 @@ const teamStyle = {
     color: "#6c757d",
   },
   description: {
-    color: "#999",
+    color: "#212121",
+    fontFamily: 'Urbanist',
+    fontSize: "20px"
   },
   justifyCenter: {
     justifyContent: "center !important",

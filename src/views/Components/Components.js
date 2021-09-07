@@ -14,24 +14,12 @@ import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.js";
-// import SectionBasics from "./Sections/SectionBasics.js";
-// import SectionNavbars from "./Sections/SectionNavbars.js";
-// import SectionTabs from "./Sections/SectionTabs.js";
-// import SectionPills from "./Sections/SectionPills.js";
-// import SectionNotifications from "./Sections/SectionNotifications.js";
-// import SectionTypography from "./Sections/SectionTypography.js";
-// import SectionJavascript from "./Sections/SectionJavascript.js";
-// import SectionCarousel from "./Sections/SectionCarousel.js";
 import SectionOffer from "./Sections/SectionOffer.js";
 import SectionLogin from "./Sections/SectionLogin.js";
 import SectionPara from "./Sections/SectionPara.js";
-// import SectionMenu from "./Sections/SectionMene";
 import SectionBanner from "./Sections/SectionBanner";
 import SectionGallery from "./Sections/SectionGallery";
 import SectionAbout from "./Sections/SectionAbout";
-// import SideBar from "./Sections/SectionNina";
-// import SectionDownload from "./Sections/SectionDownload.js";
-// import AboutMe from "./Sections/SectionNina";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 

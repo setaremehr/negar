@@ -31,7 +31,7 @@ export default function HeaderLinks(props) {
           buttonText="Get in touch"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: "transparent",
           }}
           buttonIcon={Apps}
           dropdownList={[
@@ -46,7 +46,7 @@ export default function HeaderLinks(props) {
               className={classes.dropdownLink}
             >
               Email Me
-            </a>
+            </a>,
           ]}
         />
       </ListItem>
@@ -59,39 +59,8 @@ export default function HeaderLinks(props) {
         <Link to="/" className={classes.dropdownLink}>
           Home
         </Link>
-        {/* <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            href=""
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-twitter"} />
-          </Button>
-        </Tooltip> */}
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href=""
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
+
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
