@@ -6,14 +6,13 @@ import { styled } from "@material-ui/core/styles";
 import Badge from "@material-ui/core/Badge";
 import Avatar from "@material-ui/core/Avatar";
 import Box from "@material-ui/core/Box";
-// import Paper from "@material-ui/core/Paper";
 import negar from "../../../assets/img/nn.png";
 import Grid from "@material-ui/core/Grid";
 import { purple, red } from '@material-ui/core/colors';
 export default function SectionAbout() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const imageUrl = windowWidth >= 650 ? desktopImage : mobileImage;
-  const colorChange = windowWidth >= 650 ? red : purple;
+
   useEffect(() => {
     const handleWindowResize = () => {
       setWindowWidth(window.innerWidth);
@@ -82,8 +81,6 @@ export default function SectionAbout() {
                 Hello! Thank you for stopping by!<br/> 
                 I’m Nina Bakhshi,
                 Professional freelance Makeup Artist,<br/> located on San Jose Ca.
-                {/* <br />
-                <br /> */}
               </p>
             </Grid>
           </Grid>

@@ -24,8 +24,7 @@
   padding-top: 20px;
   background-color: black;
   padding: 40px;
-  /* position: absolute; */
-  opacity: 50%;
+  opacity:40%;
   color: white;
   border-radius: 22px;
 }
