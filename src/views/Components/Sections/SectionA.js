@@ -52,6 +52,7 @@ export default function SectionA() {
                         I’m Nina Bakhshi,
                         Professional freelance Makeup Artist,<br /> located on San Jose Ca.
                 </p>
+                <p>jfsdjyfgkaeugfkuafv</p>
                 </Grid>
             </Grid>
         </Box>

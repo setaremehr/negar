@@ -20,7 +20,7 @@ import SectionPara from "./Sections/SectionPara.js";
 import SectionBanner from "./Sections/SectionBanner";
 import SectionGallery from "./Sections/SectionGallery";
 import SectionAbout from "./Sections/SectionAbout";
-
+import SectionA from "./Sections/SectionA";
 import styles from "assets/jss/material-kit-react/views/components.js";
 
 const useStyles = makeStyles(styles);
@@ -63,6 +63,7 @@ export default function Components(props) {
                 >
                   makeup artist with a passion for creation
                 </h3>
+                <SectionA/>
               </div>
             </GridItem>
           </GridContainer>
