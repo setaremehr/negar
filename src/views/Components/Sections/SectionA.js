@@ -33,34 +33,34 @@ export default function SectionA() {
     }));
 
     return (
-         <div className="App" style={{ backgroundImage: `url(${imageUrl})` }}>
-        <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={2}>
-                <Grid item xs={2}>
-                    <Badge
-                        overlap="circular"
-                        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
-                        badgeContent={<SmallAvatar alt="n" src={negar} />}
-                    >
-                    </Badge>
-                </Grid>
-                <Grid item xs={8} justify="center">
-                    <br />
-                    <br />
-                    <p className="pp" style={{ fontSize: "26px", paddingTop: "40px" }}>
-                        Hello! Thank you for stopping by!<br />
+        <div className="App" style={{ backgroundImage: `url(${imageUrl})` }}>
+            <Box sx={{ flexGrow: 1 }}>
+                <Grid container spacing={2}>
+                    <Grid item xs={2}>
+                        <Badge
+                            overlap="circular"
+                            anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+                            badgeContent={<SmallAvatar alt="n" src={negar} />}
+                        >
+                        </Badge>
+                    </Grid>
+                    <Grid item xs={8} justify="center">
+                        <br />
+                        <br />
+                        <p className="pp" style={{ fontSize: "26px", paddingTop: "40px" }}>
+                            Hello! Thank you for stopping by!<br />
                         I’m Nina Bakhshi,
                         Professional freelance Makeup Artist,<br /> located on San Jose Ca.
                 </p>
-                <p className="pp" style={{ fontSize: "26px", paddingTop: "40px" }}>
-                        Hello! Thank you for stopping by!<br />
+                        <p>
+                            Hello! Thank you for stopping by!<br />
                         I’m Nina Bakhshi,
                         Professional freelance Makeup Artist,<br /> located on San Jose Ca.
-                </p>
+                        </p>
+                    </Grid>
                 </Grid>
-            </Grid>
-        </Box>
-       </div>
+            </Box>
+        </div>
     );
 }
 
