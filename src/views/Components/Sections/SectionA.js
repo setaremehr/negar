@@ -52,8 +52,11 @@ export default function SectionA() {
                         I’m Nina Bakhshi,
                         Professional freelance Makeup Artist,<br /> located on San Jose Ca.
                 </p> */}
-                        <p style={{ fontSize: "26px", paddingTop: "60px", fontFamily: "Cinzel, serif", textAlign: "center",
-                    borderRadius: "22px",border: "solid 20px white",}}>
+                        <p style={{
+                            fontSize: "26px", paddingTop: "60px", fontFamily: "Cinzel, serif", textAlign: "center",
+                            borderRadius: "22px", border: "solid 10px rgb(185, 230, 159)", opacity: "65%", backgroundColor: "rgb(7, 8, 9)", color: "white",
+                            padding: "40px",paddingBottom: "30px",paddingTop: "30px",
+                        }}>
                             Hello! Thank you for stopping by!<br />
                         I’m Nina Bakhshi,
                         Professional freelance Makeup Artist,<br /> located on San Jose Ca.

@@ -27,7 +27,7 @@
   opacity:65%;
   color: rgb(254, 254, 254);
   border-radius: 22px;
-  border: solid 20px white;
+  border: solid 20px rgb(185, 230, 159);
 }
 
 @media (min-width: 650px) {
