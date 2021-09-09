@@ -75,8 +75,8 @@ export default function Components(props) {
         {/* <SectionTabs /> */}
         {/* <SectionGallery marginBottom="50px" /> */}
         {/* <SectionMenu /> */}
-        <SectionBanner />
         <SectionAbout />
+        <SectionBanner />
         <SectionGallery />
         {/* <AboutMe /> */}
         {/* <SectionPills /> */}

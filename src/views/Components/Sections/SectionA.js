@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import desktopImage from "../../../assets/img/garde.jpeg";
+import desktopImage from "../../../assets/img/zxz.jpeg";
 import mobileImage from "../../../assets/img/ggg.jpeg";
 import { styled } from "@material-ui/core/styles";
 import Badge from "@material-ui/core/Badge";
