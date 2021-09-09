@@ -52,7 +52,11 @@ export default function SectionA() {
                         I’m Nina Bakhshi,
                         Professional freelance Makeup Artist,<br /> located on San Jose Ca.
                 </p>
-                <p>jfsdjyfgkaeugfkuafv</p>
+                <p className="pp" style={{ fontSize: "26px", paddingTop: "40px" }}>
+                        Hello! Thank you for stopping by!<br />
+                        I’m Nina Bakhshi,
+                        Professional freelance Makeup Artist,<br /> located on San Jose Ca.
+                </p>
                 </Grid>
             </Grid>
         </Box>
