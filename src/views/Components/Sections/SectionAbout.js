@@ -31,38 +31,20 @@ export default function SectionAbout() {
   }));
   
   return (
-    <>
       <div className="App" style={{ backgroundImage: `url(${imageUrl})` }}>
-        {/* <div className="App-content"> */}
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2}>
             <Grid item xs={2}>
-              {/* <Item> */}
               <Badge
                 overlap="circular"
                 anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
                 badgeContent={<SmallAvatar alt="n" src={negar} />}
               >
-                {/* <Avatar
-                  alt=""
-                  src={negar}
-                  style={{ width: 320, height: 320 }}
-                /> */}
               </Badge>
-              {/* </Item> */}
             </Grid>
-            <Grid item xs={8} justify="center">
-              {/* <Item>xs=8</Item> */}
-              <h1
-                // className="pp"
-                style={{
-                  marginTop: "90px",
-                  color: "#2e7d32",
-                }}
-              >
-                <br/>
-                {/* Welcome to my website! */}
-              </h1>
+            <Grid item xs={8} justify="center">                       
+                <br/>    
+                <br/>            
               <p className="pp" style={{ fontSize: "26px",paddingTop: "40px" }}>
                 Hello! Thank you for stopping by!<br/> 
                 I’m Nina Bakhshi,
@@ -70,10 +52,7 @@ export default function SectionAbout() {
               </p>
             </Grid>
           </Grid>
-
-          {/* </div> */}
         </Box>
       </div>
-    </>
   );
 }
