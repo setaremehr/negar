@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import desktopImage from "../../../assets/img/wider.jpg";
+import desktopImage from "../../../assets/img/garde.jpeg";
 import mobileImage from "../../../assets/img/ggg.jpeg";
 import { styled } from "@material-ui/core/styles";
 import Badge from "@material-ui/core/Badge";
@@ -8,7 +8,6 @@ import Avatar from "@material-ui/core/Avatar";
 import Box from "@material-ui/core/Box";
 import negar from "../../../assets/img/nn.png";
 import Grid from "@material-ui/core/Grid";
-import { purple, red } from '@material-ui/core/colors';
 export default function SectionAbout() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const imageUrl = windowWidth >= 650 ? desktopImage : mobileImage;
@@ -30,20 +29,7 @@ export default function SectionAbout() {
     height: 160,
     border: `5px solid ${theme.palette.background.paper}`,
   }));
-  const insideStyles = {
-    background: "white",
-    padding: 20,
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%,-50%)",
-    opacity: "50%",
-    fontFamily: "Allison, cursive",
-    fontSize: "35px",
-    color: "black",
-    //   borderStyle: "dotted",
-    borderRadius: "12px",
-  };
+  
   return (
     <>
       <div className="App" style={{ backgroundImage: `url(${imageUrl})` }}>
@@ -77,7 +63,7 @@ export default function SectionAbout() {
                 <br/>
                 {/* Welcome to my website! */}
               </h1>
-              <p className="pp" style={{ fontSize: "24px",paddingTop: "40px" }}>
+              <p className="pp" style={{ fontSize: "26px",paddingTop: "40px" }}>
                 Hello! Thank you for stopping by!<br/> 
                 I’m Nina Bakhshi,
                 Professional freelance Makeup Artist,<br/> located on San Jose Ca.

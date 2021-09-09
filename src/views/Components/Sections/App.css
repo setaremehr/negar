@@ -1,5 +1,5 @@
 .App {
-  height: 67vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -22,11 +22,12 @@
   margin-bottom: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: black;
+  background-color: rgb(7, 8, 9);
   padding: 40px;
-  opacity:40%;
-  color: white;
+  opacity:65%;
+  color: rgb(254, 254, 254);
   border-radius: 22px;
+  border: solid 20px white;
 }
 
 @media (min-width: 650px) {

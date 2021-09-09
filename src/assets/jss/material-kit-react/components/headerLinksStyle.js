@@ -4,7 +4,7 @@ import tooltip from "assets/jss/material-kit-react/tooltipsStyle.js";
 
 const headerLinksStyle = (theme) => ({
   list: {
-    ...defaultFont,
+    // ...defaultFont,
     fontSize: "14px",
     margin: 0,
     paddingLeft: "0",
@@ -14,6 +14,7 @@ const headerLinksStyle = (theme) => ({
     color: "inherit",
   },
   listItem: {
+    fontFamily: 'Dancing Script, cursive',
     float: "left",
     color: "inherit",
     position: "relative",

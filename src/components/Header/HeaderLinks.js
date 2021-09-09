@@ -26,13 +26,13 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <CustomDropdown
-          noLiPadding
-          opacity="50%"
+          // noLiPadding
+          opacity="30%"
           buttonText="Get in touch"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent",
-          }}
+          // buttonProps={{
+          //   className: classes.navLink,
+          //   color: "transparent",
+          // }}
           buttonIcon={Apps}
           dropdownList={[
             <Link to="" className={classes.dropdownLink}>
@@ -52,12 +52,12 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link to="/landing-page" className={classes.dropdownLink}>
-          About me
+          ARTIST'S BIO
         </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link to="/" className={classes.dropdownLink}>
-          Home
+          HOME
         </Link>
       </ListItem>
 
