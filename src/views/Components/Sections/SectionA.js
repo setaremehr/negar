@@ -47,12 +47,12 @@ export default function SectionA() {
                     <Grid item xs={8} justify="center">
                         <br />
                         <br />
-                        <p className="pp" style={{ fontSize: "26px", paddingTop: "40px" }}>
+                        {/* <p className="pp" style={{ fontSize: "26px", paddingTop: "40px" }}>
                             Hello! Thank you for stopping by!<br />
                         I’m Nina Bakhshi,
                         Professional freelance Makeup Artist,<br /> located on San Jose Ca.
-                </p>
-                        <p>
+                </p> */}
+                        <p style={{ fontSize: "26px", paddingTop: "60px", fontFamily: "Cinzel, serif", }}>
                             Hello! Thank you for stopping by!<br />
                         I’m Nina Bakhshi,
                         Professional freelance Makeup Artist,<br /> located on San Jose Ca.
